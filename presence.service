@@ -1,0 +1,17 @@
+[Unit]
+Description=RapberryPi presence counter
+Requires=pigpiod.service
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=90
+StartLimitInterval=400
+StartLimitBurst=3
+WorkingDirectory=/tmp
+ExecStart=/usr/local/bin/presence.py
+SyslogIdentifier=presence
+
+[Install]
+WantedBy=multi-user.target
