@@ -19,8 +19,8 @@ Track how many people are present in a room using a laser sensor barrier attache
 
 ## Components used
 * Raspberry Pi 3b
-* Photoresistor GL5516 on light Sensor Modul LM393
-* Laserdiode Modul 15 * 6 mm, 5 V
+* Photoresistor GL5516 on light sensor module LM393
+* Laserdiode module 15 * 6 mm, 5 V
 * some case
 
 ## Complet setup
